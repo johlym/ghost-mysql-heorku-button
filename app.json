@@ -6,7 +6,9 @@
   "success_url": "/ghost",
   "addons": [
     "heroku-postgresql",
-    "mailgun"
+    "mailgun",
+    "papertrail",
+    "cleardb:punch"
   ],
   "env": {
     "HEROKU_URL": {
