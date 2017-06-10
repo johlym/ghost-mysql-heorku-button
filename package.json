@@ -4,20 +4,20 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cobyism/ghost-on-heroku.git"
+    "url": "git://github.com/johlym/ghost-on-heroku.git"
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
   "version": "1.0.0-beta.1",
   "dependencies": {
-    "casper": "TryGhost/Casper",
+    "casper": "git://github.com/TryGhost/Casper",
     "ghost": "1.0.0-beta.1",
     "ghost-s3-storage-adapter": "3.0.4",
-    "ncp": "^2.0.0",
+    "ncp": "^2.0.0"
   },
   "optionalDependencies": {
     "sqlite3": "3.1.8"
-  }
+  },
   "engines": {
     "node": "^4.5.0 || ^6.9.0"
   },
