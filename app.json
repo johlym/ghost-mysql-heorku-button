@@ -7,7 +7,7 @@
   "addons": [
     "mailgun",
     "papertrail",
-    "cleardb:punch"
+    "jawsdb:leopard"
   ],
   "env": {
     "HEROKU_URL": {
