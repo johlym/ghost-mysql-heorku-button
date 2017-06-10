@@ -54,7 +54,7 @@ config = {
     database: {
       client: 'mysql',
       connection: process.env.CLEARDB_DATABASE_URL,
-      debug: false
+      debug: true
     },
     server: {
       host: '0.0.0.0',
