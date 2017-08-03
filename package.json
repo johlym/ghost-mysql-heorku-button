@@ -11,8 +11,8 @@
   "version": "1.0.0-beta.1",
   "dependencies": {
     "casper": "git://github.com/TryGhost/Casper",
-    "ghost": "1.0.0-beta.1",
-    "ghost-s3-storage-adapter": "3.0.4",
+    "ghost": "1.4.0",
+    "ghost-storage-adapter-s3": "git://github.com/colinmeinke/ghost-storage-adapter-s3",
     "ncp": "^2.0.0"
   },
   "optionalDependencies": {

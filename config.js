@@ -53,7 +53,7 @@ config = {
     storage: storage,
     database: {
       client: 'mysql',
-      connection: process.env.JAWSDB_URL,
+      connection: process.env.CLEARDB_DATABASE_URL,
       debug: true
     },
     server: {
